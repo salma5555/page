@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+* {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+.header{
+    background-color: #2a9bc1;
+    padding: 20px
+}
+.header .navbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: flex-start;
+    font-size: 2rem;
+}
+.logo{
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+}
+.href{
+    padding-left: 15px;
+    color: white    ;
+    font-family: inherit;
+    font-weight: 500;
+}
+.href:hover{
+    color: rgb(52, 44, 143);
+}
+.four{
+    background-image: url(images/Inkedslidefive_LI.jpg);
+    background-position: 650px;
+    height: 720px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.four h1{
+    font-size: xxx-large;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-left: 10px;
+}
+.four p{
+    margin-left: 10px;
+    font-size: medium;
+    font-family: 'Poppins';
+}
+.four-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 84px;
+    top: 250px;
+    line-height: 45px;
+    width: 566px;
+    height: 300px;
+}
+.four a{
+    font-weight: bold;
+    margin-top: 34px;
+    margin-right: 471px;
+    text-decoration: none;
+}
+.four a:hover {
+    font-weight: bold;
+    font-size: medium;
+    border: #fae053;
+    border-bottom-style: groove;
+}
